@@ -35,3 +35,8 @@ body{
 .topnav a:hover, a:active {
     background-color: gray;
 }
+header{
+    margin-top: 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
