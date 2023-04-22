@@ -2,4 +2,36 @@ body{
     margin-top: 0;
     font-family: 'Raleway', sans-serif;
     text-align: center;
+    overflow:hidden;
+}
+::-webkit-scrollbar{
+    display:none;
+}
+
+/* TOPNAV */
+
+.topnav {
+    width:100%;
+    font-weight:bold;
+    background-color:lightgray;
+    overflow:hidden;
+    position: fixed;
+    top: 0;
+    left:0; 
+}
+.topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 30px;
+    text-decoration:none;
+}
+.topnav img {
+    float: left;
+    text-align: center;
+    padding: 6px 10px;
+    border-radius:15px;
+}
+.topnav a:hover, a:active {
+    background-color: gray;
 }
